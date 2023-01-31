@@ -7,7 +7,8 @@
     "start": "node index.js",
     "format": "prettier --write .",
     "lint": "eslint --fix .",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prepare": "husky install"
   },
   "author": "",
   "license": "ISC",
@@ -16,6 +17,7 @@
     "eslint-config-node": "^4.1.0",
     "eslint-config-prettier": "^8.6.0",
     "eslint-plugin-prettier": "^4.2.1",
+    "husky": "^8.0.3",
     "prettier": "2.8.3"
   }
 }
